@@ -1,5 +1,5 @@
 //load environment variables
-var dotenv = require('dotenv');
+var dotenv = require('.env');
 dotenv.load();
 
 //add instagram api setup

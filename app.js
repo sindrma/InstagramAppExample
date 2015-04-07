@@ -23,7 +23,7 @@ app.use(express.bodyParser());
 app.get('/', index.view);
 app.get('/hashtag', function (req, res) {
 	res.render('hashtag');
-})
+});
 app.post('/hashtag', hashtag.getHashtag);
 app.post('/save', hashtag.saveFavorites);
 app.post('/delete', index.deleteImage);

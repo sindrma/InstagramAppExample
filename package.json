@@ -1,7 +1,7 @@
 {
   "name": "mywebapp",
   "version": "0.0.1",
-  "author": "Chu Shao",
+  "author": "Sindre Magnussen",
   "scripts": {
     "start": "node app.js"
   },

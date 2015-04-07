@@ -10,7 +10,7 @@ var index = require('./routes/index');
 //database setup
 var mongoose = require('mongoose');
 //mongoose.connect(process.env.MONGOHQ_URL || 'mongodb://localhost/instagramexample');
-mongoose.connect(process.env.MONGOLAB_URL || 'mongodb://localhost/instagramexample');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/instagramexample');
 
 //Configures the Template engine
 app.engine('handlebars', handlebars());
